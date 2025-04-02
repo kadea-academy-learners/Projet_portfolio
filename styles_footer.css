@@ -1,0 +1,65 @@
+p {
+  color: #383838;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 3px solid black;
+  padding: 0 0.5rem 0 0.5rem;
+  margin: 3rem;
+  width: 80vw;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.p {
+  font-weight: bold;
+}
+
+.icon a {
+  display: inline;
+}
+
+.icon {
+  display: flex;
+}
+
+/* Styles pour tablette */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    display: flex;
+    flex-direction: initial;
+    text-align: center;
+    border-top: 3px solid black;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 3rem;
+    width: 80vw;
+  }
+}
+
+/* Styles pour desktop */
+@media (min-width: 1025px) {
+  .footer {
+    display: flex;
+    flex-direction: initial;
+    text-align: center;
+    border-top: 3px solid black;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 3rem;
+    width: 80vw;
+  }
+}

@@ -1,0 +1,65 @@
+/*mise en place de quelques reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*Declaration des quelques variables*/
+
+:root {
+  --bg-color: #fff;
+  --font-color: #000;
+}
+
+/*styles du header**/
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  font-size: 2rem;
+  padding: 0.3rem 3rem 0.3rem 3rem;
+}
+
+.activ {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* Gestion de la responsive */
+
+/* Styles pour tablette */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+}
+
+/* Styles pour desktop */
+@media (min-width: 1025px) {
+  header {
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    padding: 2rem 7rem 2rem 7rem;
+  }
+}
