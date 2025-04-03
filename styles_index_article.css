@@ -38,15 +38,28 @@
   border-radius: 50%;
 }
 
-.yellow {
+.button_container a {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #eea302;
+  border: 1px black solid;
+  font-size: 1.6rem;
+}
+
+.button_container .yellow {
   background: #eea302;
 }
 
-.red {
+.button_container .red {
   background: #e13b25;
 }
 
-.blue {
+.button_container .blue {
   background: #80d8da;
 }
 
@@ -64,7 +77,7 @@
 }
 
 /* Styles pour desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .article_index_container {
     display: flex;
     flex-direction: initial;

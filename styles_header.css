@@ -35,6 +35,23 @@ header {
 nav a {
   font-size: 2rem;
   padding: 0.3rem 3rem 0.3rem 3rem;
+  transition: 0.5s all ease-in-out;
+}
+
+nav .yellow:hover {
+  color: #eea302;
+}
+
+nav .red:hover {
+  color: #e13b25;
+}
+
+nav .blue:hover {
+  color: #80d8da;
+}
+
+.photo_profil img {
+  object-fit: cover;
 }
 
 .activ {
@@ -55,7 +72,7 @@ nav a {
 }
 
 /* Styles pour desktop */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   header {
     display: flex;
     flex-direction: initial;
