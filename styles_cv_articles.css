@@ -17,7 +17,7 @@ section p {
   font-size: 1.6rem;
 }
 
-button {
+.link a {
   padding: 0.8rem;
   font-weight: bold;
   font-size: 1.6rem;
